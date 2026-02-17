@@ -1,0 +1,17 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    avoid_single_cascade_in_expression_statements: true
+    avoid_types_on_closure_parameters: false
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    unnecessary_null_checks: true
+    unnecessary_this: true
+    always_specify_types: true
+    sort_constructors_first: true
+    lines_longer_than_80_chars: false
+    avoid_unused_constructor_parameters: true
